@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namee": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "mobile": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    }
+  }
+}
